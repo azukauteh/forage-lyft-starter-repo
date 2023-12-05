@@ -17,3 +17,26 @@ This project was completed as part of Lft Back-End Engineering job simulation. T
 - Code Refactoring : Took on the challenge of refactoring a messy codebase inherited from another team. The goal was to accurately reflect the new design outlined in the UML class diagram. This effort aimed to improve code maintainability and extensibility.
 
 - Test-Driven Development : Implemented unit tests to ensure the reliability and correctness of the system. New functionality was added following the principles of test-driven development (TDD), contributing to a robust and stable codebase.
+
+- ###  Project structure
+
+lyft-fleet-management/
+│
+├── main.py
+├── car.py
+├── serviceable.py
+├── engine/
+│   ├── capulet_engine.py
+│   ├── sternman_engine.py
+│   ├── willoughby_engine.py
+│   └── __init__.py
+│
+├── battery/
+│   ├── spindler_battery.py
+│   ├── nubbin_battery.py
+│   └── __init__.py
+│
+└── tire/
+    ├── carrigan_tires.py
+    ├── octoprime_tires.py
+    └── __init__.py
