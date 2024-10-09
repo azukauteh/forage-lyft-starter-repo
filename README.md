@@ -1,4 +1,4 @@
-Lyft Back-End Engineering
+
 ===
 # Lyft Fleet Management System
 
